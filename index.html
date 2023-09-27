@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALURA BOOKS</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
-
+    
 </head>
 <body>
     <header class="cabeçalho">
         <div class="container">        
             <input type="checkbox" name="" id="menu" class="container__botao">
-            <label for="menu "></label>
+            <label for="menu ">
                 <span class="cabeçalho__menu-hamburguer container__imagem"> </span>
             </label>
             
@@ -56,7 +57,29 @@
         <p class="banner__texto"> A lanchonete mais famosa da cidade. Localizada na Rua Paralelelpipedo 500. Atendimento da 19:00 ás 00:00. </p>
         <input type="search" class="banner__pesquisa" placeholder="Qual sua duvida?">
      </section>    
-  
-
+    
+     <section class="carrossel">
+        <h2 class="carrossel__titulo"> NOSSOS PRODUTOS</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="rafafood.jpeg" alt=""></div>
+              <div class="swiper-slide"> <img src="delivery.jpg" alt="">Slide 2</div>
+              <div class="swiper-slide"><img src="" alt="">Slide 3</div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
 </html>
