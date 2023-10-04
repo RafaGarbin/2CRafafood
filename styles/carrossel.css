@@ -7,10 +7,13 @@
     padding: 1em; 
     
 }
+.carrossel{
+    background-color: #e9b0aa;  
+
+}
 .swiper-slide img{
     padding: 3px;
- align-items: center;
- justify-content: space-around;
+text-align: center;
     width: 100%;
 }
 .swiper-button-prev,.swiper-button-next{
