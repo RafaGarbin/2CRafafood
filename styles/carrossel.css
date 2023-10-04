@@ -8,9 +8,9 @@
     
 }
 .swiper-slide img{
-    padding: 40px;
+    padding: 3px;
  align-items: center;
-    width: 100px;
+    width: 100%;
 }
 .swiper-button-prev,.swiper-button-next{
     display: none;
