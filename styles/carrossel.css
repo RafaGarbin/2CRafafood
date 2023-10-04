@@ -10,7 +10,7 @@
 .swiper-slide img{
     padding: 10px;
  align-items: center;
-    width: 50%;
+    width: 80%;
 }
 .swiper-button-prev,.swiper-button-next{
     display: none;
