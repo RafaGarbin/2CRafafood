@@ -8,8 +8,8 @@
     
 }
 .swiper-slide img{
- margin: 3em;
-    width: 30%;
+ align-items: center;
+    width: 50%;
 }
 .swiper-button-prev,.swiper-button-next{
     display: none;
