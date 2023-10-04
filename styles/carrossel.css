@@ -9,7 +9,7 @@
 }
 .swiper-slide img{
  margin: 3em;
-    width: 5;
+    width: 30%;
 }
 .swiper-button-prev,.swiper-button-next{
     display: none;
